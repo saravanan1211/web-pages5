@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    padding-top: 10%;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:150px;
+    margin-bottom: 20%;
+    margin-right: 75%;
+}
+.navlinks{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    padding: 0px 50px;
+    margin-left:60%;
+    color: black;
+}
+body{
+    background-color:white;
+}
+.slide{
+    width:70%;
+    overflow: hidden;
+    margin: 30px auto;   
+}
+.slide input{
+    display: none;
+}
+.slide figure{
+    width: 500%;
+    display: flex;
+}
+.slide figure img{
+    width: 20%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    transition:1s;
+}
+.navbutton{
+    display: flex;
+    justify-content: center;
+    margin: 20px;    
+}
+.button{
+    border: 1.5px solid rgb(23, 10, 10);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(229, 255, 0);
+    border-color: rgb(255, 94, 0);
+}
+
+#radiobtn1:checked~.first{
+    margin-left: 0%;
+} 
+.con{
+    margin-top:20px;
+    margin-left: 10px;
+
+} 
+.con p{
+    font-size: medium;
+} 
+
+#radiobtn2:checked~.first{
+    margin-left: -20%;
+}   
+
+#radiobtn3:checked~.first{
+    margin-left: -40%;
+} 
+#radiobtn4:checked~.first{
+    margin-left: -60%;  
+}
+.nature{
+    margin-left: 10px;
+
+}
+.radio{
+    width: 100%;
+    height:200px;
+    background-color: brown;    
+}
+.design{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left:12%;
+    color: white;
+    margin-top: 7%;
+    text-transform: capitalize;
+}
+.design li{
+    list-style-type: none;
+}
+.design li a{
+    text-decoration: none;
+
+}
+.ratio{
+    position: absolute;
+    margin-left: 10%;
+    color: white;
+    margin-top:40px;
+    border-bottom: 2px solid blue;
+
+}
+.ratio h1{
+    text-transform: capitalize;
+    
+}
+.ratio-1{
+    position: absolute;
+    margin-left: 42%;
+    color: white;
+    margin-top:40px;
+    margin-right:20px;
+    border-bottom: 2px solid blue;
+
+}
+.ratio-1 h1{
+    text-transform: capitalize;
+
+}
+.design-1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left:45%;
+    color: white;
+    margin-top:7%;
+    text-transform: capitalize;
+
+}
+.design-1 li{
+    list-style-type: none;
+}
+.design-1 li a{
+    text-decoration: none;
+
+}
+.ratio-2{
+    position: absolute;
+    margin-left: 75%;
+    color: white;
+    margin-top:40px;
+    margin-right:20px;
+    border-bottom: 2px solid blue;
+
+}
+.ratio-2 h1{
+    text-transform: capitalize;
+
+}
+.design-2{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left:80%;
+    color: white;
+    margin-top:7%;
+    text-transform: capitalize;
+
+}
+.design-2 li{
+    list-style-type: none;
+}
+.design-2 li a{
+    text-decoration: none;
+
+}
+    
+
+
+
